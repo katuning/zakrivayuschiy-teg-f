@@ -13,6 +13,7 @@
     <link rel="icon" href="./images/favicon.png" />
     <link rel="icon" href="./images/favicon.svg" />
   </head>
+
   <body class="page">
     <header class="header section">
       <h1 class="header__text header__text-logo">&lt;/html&gt;</h1>
@@ -24,10 +25,8 @@
           Фритрек и нулевой спринт: Подготовка к работе
         </h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img class="article__image" src="./images/card1-persik.jpg" alt="" />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -36,40 +35,47 @@
             знания могут повлиять на ваше будущее.
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            Интерес и азарт появились сразу, но стало понятно, что к решению
+            нужно подойти с трезвой головой.
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -78,10 +84,12 @@
       <article class="article section">
         <h3 class="article__title">1 спринт: Я — чистый лист</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image invert"
+            src="./images/card2-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -92,40 +100,47 @@
             будет слишком сложно? что, если я не справлюсь?
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            Было страшно чувствовать себя новичком, это очень раздражало и
+            тормозило, но со временем с этим получилось справиться.
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -134,10 +149,12 @@
       <article class="article section">
         <h3 class="article__title">1 спринт: А если не получится?</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image grayscale"
+            src="./images/card3-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -146,40 +163,47 @@
             наоборот, могли вдохновиться успехами и поверить в себя.
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            Первый проект дал мне понять — я что-то могу, да и вообще, я
+            крутышка!
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -188,10 +212,12 @@
       <article class="article section">
         <h3 class="article__title">2 спринт: Погоня за идеалом</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image brightness"
+            src="./images/card4-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -202,40 +228,47 @@
             старались просто сделать.
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            Спасибо психотерапии, которая помогла избавиться от страха неудач. Я
+            пробую, а это уже намного круче, чем ничего!
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -244,10 +277,12 @@
       <article class="article section">
         <h3 class="article__title">2 спринт: О тех, кто рядом</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image sepia"
+            src="./images/card5-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -259,40 +294,48 @@
             правда ли?
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            На этом этапе мы с когортой действительно сблизились, стали общаться
+            и поддерживать друг-друга. Спасибо однокруппникам и старшим
+            студентам!
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -301,10 +344,12 @@
       <article class="article section">
         <h3 class="article__title">3 спринт: Обходные стратегии</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image blur"
+            src="./images/card6-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -313,40 +358,46 @@
             время посмотреть на задачу под другим углом.
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            Это самое интересное! Хоть это порой бывает непросто...
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -355,10 +406,12 @@
       <article class="article section">
         <h3 class="article__title">3 спринт: Когда опускаются руки</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image hue-rotate"
+            src="./images/card7-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -369,40 +422,48 @@
             черпали.
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            Это был первый спринт, когда я опоздала с мягким дедлайном (на 17
+            часов хе-хе). Но сразу стало понятно, что легче не будет, поэтому
+            придется направить все свои силы на обучение.
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -411,10 +472,12 @@
       <article class="article section">
         <h3 class="article__title">«Сейчас я здесь»</h3>
         <div class="article__image-container">
-          <label class="logo">
-            <span>&lt;/html&gt;</span>
-          </label>
-          <img class="article__image" src="./images/car.png" alt="" />
+          <span class="logo">&lt;/html&gt;</span>
+          <img
+            class="article__image saturate"
+            src="./images/card8-persik.jpg"
+            alt=""
+          />
         </div>
         <div class="article__content">
           <p class="article__text">
@@ -426,71 +489,93 @@
             и есть результат.
           </p>
           <p class="article__text">
-            Место для ваших воспоминаний о начале обучения.
+            А сейчас стало тяжелее и страшнее, потому что я опаздываю, хоть и
+            стараюсь из последних сил! Это будет для меня урок — не откладываать
+            важные дела на потом, потому что это "потом" может быть
+            непредсказуемым.
           </p>
           <div class="article__buttons">
             <button class="card__icon-button" aria-label="Нажать сердечко">
               <svg
-                width="27"
-                height="24"
-                viewBox="0 0 27 24"
-                fill="none"
+                class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
               >
-                <path d="M6 0H3V3H6V0Z" fill="black" />
-                <path d="M9 0H6V3H9V0Z" fill="black" />
-                <path d="M3 3H0V6H3V3Z" fill="black" />
-                <path d="M3 6H0V9H3V6Z" fill="black" />
-                <path d="M3 9H0V12H3V9Z" fill="black" />
-                <path d="M12 0H9V3H12V0Z" fill="black" />
-                <path d="M6 12H3V15H6V12Z" fill="black" />
-                <path d="M9 15H6V18H9V15Z" fill="black" />
-                <path d="M12 18H9V21H12V18Z" fill="black" />
-                <path d="M21 0H24V3H21V0Z" fill="black" />
-                <path d="M18 0H21V3H18V0Z" fill="black" />
-                <path d="M24 3H27V6H24V3Z" fill="black" />
-                <path d="M24 6H27V9H24V6Z" fill="black" />
-                <path d="M24 9H27V12H24V9Z" fill="black" />
-                <path d="M15 0H18V3H15V0Z" fill="black" />
-                <path d="M21 12H24V15H21V12Z" fill="black" />
-                <path d="M18 15H21V18H18V15Z" fill="black" />
-                <path d="M15 18H18V21H15V18Z" fill="black" />
-                <path d="M15 3H12V6H15V3Z" fill="black" />
-                <path d="M15 21H12V24H15V21Z" fill="black" />
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    class="core"
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                </g>
+                <path
+                  class="sparks"
+                  fill="red"
+                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                />
               </svg>
             </button>
-            <button class="card__like-button" aria-label="Поставить лайк">
+            <button
+              class="card__like-button button"
+              aria-label="Поставить лайк"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer">
-      <div class="footer__content">
-        <button
-          class="card__icon-button footer__button"
-          type="button"
-          onclick="window['dialog-floppy'].showModal()"
-          aria-controls="dialog-floppy"
-        >
-          <svg class="floppy" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
-            <use href="./svg/floppy.svg#floppy"></use>
-          </svg>
-          <span class="button__text footer__button-text"
-            >Сохранить на память</span
+      <div class="save">
+        <div class="save__content">
+          <button
+            class="save__button button"
+            type="button"
+            onclick="window['dialog-id'].showModal()"
+            aria-controls="dialog-id"
           >
-        </button>
-      </div>
-      <!--<dialog id="dialog-floppy" open>
-        <div class="dialog__content">
-          <svg></svg>
+            <svg
+              class="floppy"
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <span class="button__text">Сохранить на память</span>
+          </button>
         </div>
-        <button class="dialog__button">
-          <span class="button__text">OK</span>
-        </button>
-      </dialog>-->
-    </footer>
+        <dialog id="dialog-id" class="dialog__floppy">
+          <div class="dialog__content">
+            <svg
+              class="floppy"
+              viewBox="0 0 28 28"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <p class="">Вставьте дискету, чтобы продолжить</p>
+          </div>
+          <form method="dialog">
+            <button class="dialog__button button" type="submit" aria-label="Ок">
+              <span class="button__text">OK</span>
+            </button>
+          </form>
+        </dialog>
+      </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
