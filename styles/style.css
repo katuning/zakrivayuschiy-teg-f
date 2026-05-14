@@ -377,9 +377,6 @@
   .save__button {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .save__button {
     padding-block: 12px;
   }
 
