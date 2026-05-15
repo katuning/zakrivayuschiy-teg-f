@@ -66,6 +66,7 @@
   background-color: var(--bg-color);
   min-block-size: 715px;
   block-size: fit-content;
+  margin-block-end: 50px;
 }
 
 .article__title {
@@ -225,7 +226,6 @@
   justify-content: center;
   margin: auto;
   padding: 0;
-  padding-block-start: 50px;
   font-family: var(--accent-font), sans-serif;
   background-color: transparent;
 }
