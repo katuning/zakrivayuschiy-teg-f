@@ -68,10 +68,6 @@
   block-size: fit-content;
 }
 
-.article:not(:last-child) {
-  margin-block-end: 50px;
-}
-
 .article__title {
   padding: 4px 10px;
   font-size: 18px;
@@ -191,7 +187,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   line-height: 90%;
 }
@@ -229,8 +225,8 @@
   justify-content: center;
   margin: auto;
   padding: 0;
-  padding-block: 50px 100px;
-  font-family: var(--accent-font);
+  padding-block-start: 50px;
+  font-family: var(--accent-font), sans-serif;
   background-color: transparent;
 }
 
